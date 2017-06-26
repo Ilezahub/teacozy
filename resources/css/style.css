@@ -1,12 +1,12 @@
 /* From the Top... */
 
-body{
-font-family: "Helvetica", sans-serif;
-font-size: 22px;
-color: seashell;
-background-color: black;
-text-align: center;
-margin: 0;
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  margin: 0;
 }
 
 /* Header */
@@ -49,10 +49,10 @@ img {
 /* Main Content Container */
 
 .main {
-padding-top: 69px;
-opacity: 0.9;
-width: 1200px;
-margin: auto;
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
 }
 
 /* Mission Section */
@@ -62,6 +62,12 @@ margin: auto;
   background-image: url(../images/img-mission-background.jpg);
   padding-top: 70px;
 }
+
+/* #mission .flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+} */
 
 #mission .content {
 /* spacing good here */
@@ -156,10 +162,23 @@ h3 {
 
 /* P {
   display: block;
-} */
-
-
-
-/* div {} */
+}
+  div {} */
 
 /* Contact Section */
+
+#contact {
+  height: 200px;
+  }
+
+h5 {
+  display: block
+  font-weight: bold;
+  }
+
+  /* Footer */
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+  }
